@@ -7,7 +7,7 @@ body {
 }
 
 #container-login {
-    background-color: #1D1F20;
+    background-color: #ffffff;
     position: relative;
     top: 20%;
     margin: auto;
@@ -19,7 +19,7 @@ body {
 }
 
 #container-register {
-    background-color: #1D1F20;
+    background-color: #ffffff;
     position: relative;
     top: 20%;
     margin: auto;
@@ -32,7 +32,7 @@ body {
 
 #title {
     position: relative;
-    background-color: #1A1C1D;
+    background-color: #ffffff;
     width: 100%;
     padding: 20px 0px;
     border-radius: 0.35em;
@@ -43,13 +43,25 @@ body {
 .lock {
 	position: relative;
 	top: 2px;
+    background-color: #373b3d;
+    border: 1px solid #373b3d;
+    padding: 4px 8px;
+}
+
+.loginInput {
+    padding: 6px 25px;
+    background-color: #373b3d;
+    background: #373E4A;
+    color: #C1C3C6;
+    border: 0 none;
+    border-radius: 3px;
 }
 
 .input {
     margin: auto;
     width: 240px;
     border-radius: 4px;
-    background-color: #373b3d;
+    background-color: #ffffff;
     padding: 8px 0px;
     margin-top: 15px;
 }
@@ -69,7 +81,7 @@ input[type=checkbox] {
 input[type=text] {
     color: #949494;
     margin: 0;
-    background-color: #373b3d;
+    background-color: #ffffff;
     border: 1px solid #373b3d;
     padding: 6px 0px;
     border-radius: 3px;
@@ -82,7 +94,7 @@ input[type=text]:focus {
 input[type=password] {
     color: #949494;
     margin: 0;
-    background-color: #373b3d;
+    background-color: #ffffff;
     border: 1px solid #373b3d;
     padding: 6px 0px;
     border-radius: 3px;
@@ -95,7 +107,7 @@ input[type=password]:focus {
 input[type=email] {
     color: #949494;
     margin: 0;
-    background-color: #373b3d;
+    background-color: #ffffff;
     border: 1px solid #373b3d;
     padding: 6px 0px;
     border-radius: 3px;
@@ -120,10 +132,10 @@ input[type=email]:focus {
     text-decoration: none;
 }
 
-.forgot-password a:hover {
+/*.forgot-password a:hover {
     color: #FFF;
     transition: color 1s;
-}
+}*/
 
 .privacy {
     margin-top: 5px;
