@@ -10,3 +10,6 @@ Login:
 <br><br>
 Register:
 <img src="https://image.prntscr.com/image/SILqa3UgRqaTBsYwfhrNUg.png" title="Register page" />
+
+This is sample login form for beginners.
+In in repository will are going to create more page with database.
